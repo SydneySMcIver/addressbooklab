@@ -1,0 +1,56 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./headerback.jpeg");
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgba(179, 178, 176, 0.6);
+  width: 50vw;
+  align-items: center;
+  border-radius: 5px;
+}
+label {
+  padding: 16px;
+  width: px;
+  border-radius: 5px;
+  align-self: flex-start;
+  font-weight: bold;
+}
+input {
+  width: 46vw;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: none;
+  border-radius: 5px;
+  height: 28px;
+}
+h1 {
+  color: white;
+}
+input[type="submit"] {
+  font-size: 16px;
+  color: black;
+}
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
